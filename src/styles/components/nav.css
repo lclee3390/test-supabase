@@ -1,0 +1,90 @@
+/* 導航欄樣式 */
+.nav-menu {
+  background-color: #334155;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 12px rgba(51, 65, 85, 0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-links {
+  display: flex;
+  gap: 5px;
+}
+
+.nav-link {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-size: 12px;
+  /* font-weight: 500; */
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid transparent;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #334155;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-create-button {
+  padding: 5px 10px;
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 4px rgba(16, 185, 129, 0.15);
+}
+
+.nav-create-button:hover {
+  background-color: #059669;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(16, 185, 129, 0.2);
+}
+
+.nav-logout {
+  padding: 5px 10px;
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 2px 4px rgba(239, 68, 68, 0.15);
+}
+
+.nav-logout:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(239, 68, 68, 0.2);
+} 
